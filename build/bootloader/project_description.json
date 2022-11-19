@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/mhecka/Developer/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/mhecka/Developer/esp/projects/mqtt_ntp_wifi/build/bootloader",
+    "config_file":        "/Users/mhecka/Developer/esp/projects/mqtt_ntp_wifi/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4.2-dirty",
+    "target":             "esp32s3",
+    "rev":                "",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s3-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/mhecka/Developer/esp/esp-idf/components/efuse/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/esp32s3/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/esp_common/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/esp_system/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/freertos/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/hal/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/log/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/newlib/Kconfig;/Users/mhecka/Developer/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/mhecka/Developer/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/mhecka/Developer/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/mhecka/Developer/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/mhecka/Developer/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/mhecka/Developer/esp/esp-idf/components/bootloader", "/Users/mhecka/Developer/esp/esp-idf/components/bootloader_support", "/Users/mhecka/Developer/esp/esp-idf/components/efuse", "/Users/mhecka/Developer/esp/esp-idf/components/esp32s3", "/Users/mhecka/Developer/esp/esp-idf/components/esp_common", "/Users/mhecka/Developer/esp/esp-idf/components/esp_hw_support", "/Users/mhecka/Developer/esp/esp-idf/components/esp_rom", "/Users/mhecka/Developer/esp/esp-idf/components/esp_system", "/Users/mhecka/Developer/esp/esp-idf/components/esptool_py", "/Users/mhecka/Developer/esp/esp-idf/components/freertos", "/Users/mhecka/Developer/esp/esp-idf/components/hal", "/Users/mhecka/Developer/esp/esp-idf/components/log", "/Users/mhecka/Developer/esp/esp-idf/components/bootloader/subproject/main", "/Users/mhecka/Developer/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/mhecka/Developer/esp/esp-idf/components/newlib", "/Users/mhecka/Developer/esp/esp-idf/components/partition_table", "/Users/mhecka/Developer/esp/esp-idf/components/soc", "/Users/mhecka/Developer/esp/esp-idf/components/spi_flash", "/Users/mhecka/Developer/esp/esp-idf/components/xtensa", "" ]
+}
